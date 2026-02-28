@@ -1,0 +1,4 @@
+cd /d "%USERPROFILE%\Desktop\EdgeRGB"
+
+pyinstaller --onefile --noconsole --icon "%USERPROFILE%\Desktop\EdgeRGB\icon.ico" "%USERPROFILE%\Desktop\EdgeRGB\edgergb.py"
+
